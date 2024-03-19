@@ -21,7 +21,7 @@ comparés directement. La comparaison se fera en utilisant la variable *occurenc
     au lieu de:
     > occurence1.occurences < occurence2.occurences
 
-    - Écrire la Docstrings de classe
+    - Écrire la Google Docstrings de classe
     
     ### classe Statistiques
     - Va contenir les statistiques du livre
@@ -29,7 +29,7 @@ comparés directement. La comparaison se fera en utilisant la variable *occurenc
       - nb_de_mots: int, le nombre de mots dans le livre (voir plus bas pour les règles)
       - liste_occurences: List[Occurences]
     - Doit respecter l'encapsulation (utiliser le décorateur @property)
-    - Écrire la Docstrings de classe
+    - Écrire la Google Docstrings de classe
 
     ### classe Livre
     - Va contenir l'information du livre
@@ -43,7 +43,7 @@ comparés directement. La comparaison se fera en utilisant la variable *occurenc
        def __init__(self, titre: str, texte: str, auteur: str):
       ```
     - Doit respecter l'encapsulation (utiliser le décorateur @property)
-    - Écrire la Docstrings de classe
+    - Écrire la Google Docstrings de classe
   
 - Dans le module *analyseurlivre.py*:
     - Ne pas toucher à la classe DataUtils et aux scénarios de tests
