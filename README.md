@@ -4,6 +4,7 @@ statistiques sur ce livre.
 
 ## Prérequis
 - Interpréteur Python >= 3.10
+  - La raison est la présence d'un match/case dans DataUtils (équivalant au switch/case d'autres langages)
 
 ## Requis
 - Dans le module *livre.py*, implémenter les classes suivantes:
@@ -87,7 +88,7 @@ cas pour améliorer la performance. Voici un pseudo-code:
             ou si intervalle = 9 or intervalle = 10:
                 intervalle = 1
 
-            # On fait comme un tri à bulle mais avec un intervalle de comparaison au lieu 
+            # On fait comme un tri à bulle mais avec un intervalle de comparaison au lieu que l'intervalle soit toujours 1
             i := 0
             Tant que i + intervalle < longueur de la liste:
                 si liste[i] > liste[i+intervalle]
