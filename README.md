@@ -86,7 +86,7 @@ cas pour améliorer la performance. Voici un pseudo-code:
                 triée = True
             # Variante comb-11, si l'intervalle est 9 ou 10, on l'assigne à 11 
             ou si intervalle = 9 or intervalle = 10:
-                intervalle = 1
+                intervalle = 11
 
             # On fait comme un tri à bulle mais avec un intervalle de comparaison au lieu que l'intervalle soit toujours 1
             i := 0
