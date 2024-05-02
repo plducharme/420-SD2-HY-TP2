@@ -8,7 +8,7 @@ statistiques sur ce livre.
 
 ## Requis
 - Dans le module *livre.py*, implémenter les classes suivantes:
-    ### classe Occurrences
+    ### classe Occurences
     - Va contenir le nombre d'occurences dans le texte d'un certain caractère.
     - doit contenir deux variables d'instance
       - caractere: str, le caractère
